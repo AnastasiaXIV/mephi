@@ -1,0 +1,5 @@
+#!bin/bash
+echo "Процессов пользователя: " $USER
+ps ax | grep $USER | wc -l
+echo "Процессов пользователя root: " 
+ps ax | grep root |wc -l
